@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
-const no_allowed_guesses = 7;
+const no_allowed_guesses = 15;
 export default function Home() {
   const [dictionary, setDictionary] = useState([]);
   const [solution,setSolution] = useState('HELLO');
