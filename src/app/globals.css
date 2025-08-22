@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.tile{
+  @apply w-16 h-16 bg-gray-100 flex justify-center items-center font-medium text-3xl border-[##dee1e9] border-2 rounded-md;
+}
+.gray{
+  @apply bg-gray-700 text-white;
+}
+.yellow{
+  @apply bg-amber-400 text-white;
+}
+.green{
+  @apply bg-green-600 text-white;
+}
+.message{
+  @apply text-3xl text-white font-medium text-center;
+}
